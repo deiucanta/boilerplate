@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'app' => __DIR__.'/../app',
+	'app' => __DIR__.'/../backend',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,6 +52,6 @@ return array(
 	|
 	*/
 
-	'storage' => __DIR__.'/../app/storage',
+	'storage' => __DIR__.'/../backend/storage',
 
 );
