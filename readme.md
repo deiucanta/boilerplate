@@ -22,4 +22,4 @@ A starting point for every Laravel project. It will include:
 	- Repository
 	- Observer
 - Packages
-    - Laravel Generators
+    - Laravel Generators (done)
