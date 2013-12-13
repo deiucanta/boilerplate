@@ -3,13 +3,23 @@
 A starting point for every Laravel project. It will include:
 
 - Assets
-    - bower
-    - grunt
+    - Bower (done)
+    - Grunt (done)
 - Deploy
-    - capistrano
+    - Capistrano
 - Authentication
-    - login
-    - register
-    - password reset
+    - Login, Register
+    - Password Reset
 - Admin Panel
-    - user management
+    - User Management
+- Architecture
+    - Folder restructuring (done)
+    - PSR-0 Domain Folder (done)
+- Base Classes
+	- Validator
+	- Mailer
+	- Composer
+	- Repository
+	- Observer
+- Packages
+    - Laravel Generators
