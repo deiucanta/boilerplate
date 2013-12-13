@@ -11,7 +11,10 @@
 			"backend/database/migrations",
 			"backend/database/seeds",
 			"backend/tests/TestCase.php"
-		]
+		],
+		"psr-0": {
+			"App": "backend"
+		}
 	},
 	"scripts": {
 		"post-install-cmd": [
