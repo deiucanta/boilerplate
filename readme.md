@@ -8,13 +8,15 @@ A starting point for every Laravel project. It will include:
 - Deploy
     - Capistrano
 - Authentication
-    - Login, Register
+    - Login (done)
+    - Register
     - Password Reset
 - Admin Panel
     - User Management
 - Architecture
     - Folder restructuring (done)
     - PSR-0 Domain Folder (done)
+    - Separated routes in files (done)
 - Base Classes
 	- Validator
 	- Mailer
@@ -23,3 +25,9 @@ A starting point for every Laravel project. It will include:
 	- Observer
 - Packages
     - Laravel Generators (done)
+- Flash messages
+    - HTML/Form macro
+    - withFlashMessage
+    - withFlashWarning
+    - withFlashError
+- Layouts

@@ -1,3 +1,9 @@
 <?php
 
-Route::get('/', 'App\Controllers\HomeController@showWelcome');
+Route::get('/', array
+(
+	'as' => 'home',
+	'uses' => 'App\Controllers\HomeController@showWelcome',
+));
+
+require 'routes/session.php';
