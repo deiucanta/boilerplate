@@ -1,5 +1,5 @@
-/bootstrap/compiled.php
-/vendor
+/backend/bootstrap/compiled.php
+/backend/vendor
 composer.phar
 composer.lock
 .DS_Store
