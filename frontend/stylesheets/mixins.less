@@ -1,0 +1,21 @@
+.width(@xs-width, @sm-width, @md-width, @lg-width)
+{
+	@media @xs { width: @xs-width; }
+	@media @sm { width: @sm-width; }
+	@media @md { width: @md-width; }
+	@media @lg { width: @lg-width; }
+}
+
+.container()
+{
+	.center-block();
+	.clearfix();
+	.width(90%, 720px, 940px, 1140px);
+}
+
+.ul-reset()
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

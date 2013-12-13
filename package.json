@@ -1,5 +1,13 @@
 {
   "name": "Boilerplate",
   "version": "0.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-handlebars": "~0.6.0",
+    "grunt-contrib-less": "~0.8.3"
+  }
 }
