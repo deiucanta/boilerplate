@@ -30,4 +30,4 @@ A starting point for every Laravel project. It will include:
     - withFlashMessage
     - withFlashWarning
     - withFlashError
-- Layouts
+- Layouts (done)

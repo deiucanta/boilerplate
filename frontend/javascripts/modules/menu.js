@@ -4,7 +4,7 @@
 
 		return {
 			init: function() {
-				console.log(this);
+				console.log('menu is initialized');
 			}
 		};
 
