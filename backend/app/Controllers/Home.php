@@ -1,9 +1,9 @@
 <?php namespace App\Controllers;
 
 use View;
-use App\User;
+use App\Models\User;
 
-class HomeController extends BaseController {
+class Home extends Controller {
 
 	public function showWelcome()
 	{

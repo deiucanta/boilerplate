@@ -2,7 +2,7 @@
 
 use Auth, View, Input, Redirect, Validator;
 
-class SessionController extends BaseController {
+class Session extends Controller {
 
 	public function create()
 	{

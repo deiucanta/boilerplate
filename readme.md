@@ -18,11 +18,11 @@ A starting point for every Laravel project. It will include:
     - PSR-0 Domain Folder (done)
     - Separated routes in files (done)
 - Base Classes
-	- Validator
-	- Mailer
-	- Composer
-	- Repository
-	- Observer
+	- Validator (done)
+	- Mailer (done)
+	- Composer (done)
+	- Repository (done)
+	- Observer (done)
 - Packages
     - Laravel Generators (done)
 - Flash messages
