@@ -1,12 +1,14 @@
 <?php namespace App\Validators;
 
+use Validator as BaseValidator
+
 abstract class Validator {
 
 	protected $validator;
 
 	public function validate($input)
 	{
-		$this->validator = Validator::make($input, static::$rules);
+		$this->validator = BaseValidator::make($input, static::$rules);
 
 		return $this->validator->passes();
 	}
